@@ -1,5 +1,15 @@
 # Pytorch-CIFAR10-Image-Classification
 
+This can be a template and Jupyter Notebook tutorial for Image Classification with PyTorch.
+
+Highlights:
+
++ Customize your data augmentation process based on the notebook.
++ Define your own dataset based on the notebook.
++ Define your own deep learning model referring to classic ResNet and ViT models.
++ Provide you unified train and test pipleline.
++ Provide you various popular metrics.
+
 ### 1. Data preprocessing & augmentation
 - RandomResizedCrop: and RandomHorizontalFlip are useful.
 - RandomRotation, RandomVerticalFlip and Normalizea are unuseful.
@@ -15,7 +25,7 @@
 ### 3. Pipelines
 - Design unified pipelines to train model and test on test dataset.
 
-### 4. Train model
+### 4. Train model and hyperparameters tuning
 - ResNet
   - larger framework is not useful.
   - Adam and StepLR is better.
